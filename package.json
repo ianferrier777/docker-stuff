@@ -1,0 +1,39 @@
+{
+  "name": "docker-stuff",
+  "version": "1.0.0",
+  "description": "Testing the wonderful world of Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server/index.js",
+    "babel:build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tba"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "express",
+    "react"
+  ],
+  "author": "Ian Ferrier",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.0.6"
+  }
+}
